@@ -1,6 +1,6 @@
 # projectart
 
 ## Ссылка на макет
-<a href="https://www.figma.com/file/BvIXg2Bk3ogtHlNcOlZ9gi/Untitled?type=design&node-id=3-7&mode=design&t=NH3cdQMiwHuEBwyQ-0</a>
+<a href="https://www.figma.com/file/BvIXg2Bk3ogtHlNcOlZ9gi/Sherif-TX?type=design&node-id=1%3A3&mode=design&t=fzS6F8DaN7gInDGD-1</a>
 
 ## Ссылка на сайт
