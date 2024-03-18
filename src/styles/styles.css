@@ -3,15 +3,24 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #5A5955;
+  color: white;
   width: 100%;
   margin: 0;
-  font-family: roboto-regular;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
-  padding: 0 20px;
+  max-width: 100%;
+  padding: 25px;
+}
+
+header {
+  width: 100%;
+  height: 40pt;
 }
 
 .horizont {
@@ -24,12 +33,6 @@ body {
   justify-content: space-between;
 }
 
-.header_left {
-  display: flex;
-  justify-content: left;
-  text-align: left;
-}
-
 .logo {
   width: 50px;
   height: 50px;
@@ -37,11 +40,10 @@ body {
   min-height: 50px;
 
 }
-
 .head_content {
-  background: #5dd0f9;
+  background: #C53333;
   width: 100%;
-  height: 75px;
+  height: 100%;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -67,117 +69,117 @@ body {
   margin-left: 20px;
 }
 
+.INFORMATION {
+  width: 100%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif ;
+  padding: 150px 150px;
+}
 
+.NEW_ALBUM h1 {
+  background-clip: text;
+  color: transparent;
+  font-size: 70px;
+  margin-bottom: 0px;
+  font-family:  Helvetica, Arial, sans-serif;
+}
 
-
-body {
-    font-family: system-ui;
-    background: #333232;
-    color: white;
-    text-align: center;
-    font-family: Avenir;
-  }
+.KLIP {
+  width: 50%;
+  height: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  margin-right: 25px;
+}
 
   .button {
-    background-color: #c53333;
+    background-color: #C53333;
     border: none;
     border-radius: 14px;
     color: white; 
-    padding: 15px 32px;
+    padding: 15px 40px;
     text-align: center;
     font-size: 16px; 
     margin: 5px; 
     cursor: pointer;
     float: left;
-    transform: translate(100%, 100%)
+    transform: translate(130%, -130%)
   }
+  
   .button:hover {
     background-color: #a42c2c;
   }
 
-.FOTO {
-  background-image: url("");
-}
-
-.FOTO:hover {
-  transform: scale(1.5);
-}
-
-.FOTO {
-  width: 550px;
-  height: 200px;
-  background-size: cover;
-  padding: 15px 32px;
-  margin: auto;
-  margin-bottom: 110px;
-  transform: translate(-100%, -100%)
   
-  
-}
   
 .PREVIEW {
-
 background-image: url(/src/img/KLIP_PREVIEW.png);
+background-position: top right
 
 }
 
-  .LASHATKI {
+  .MERCH1 {
     display: flex;
-    
+
   }
-  
-  .MLP:hover {
+
+  .SALE1:hover {
     transform: scale(1.5);
   }
   
-  .MLP {
-    width: 400px;
-    height: 400px;
+  .SALE1 {
+    width: 200px;
+    height: 200px;
     background-size: cover;
     margin: auto;
     margin-bottom: 30px;
     transition: 0.7s;
   }
   
-  .PINKY_PAI {
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a3f776e1-9f0c-4ee3-a7e2-7e966ce8feca/d50f228-2075311c-255f-4755-b8a2-965d23ef04d0.png/v1/fill/w_894,h_894/pinkie_pie_by_90sigma_d50f228-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwMCIsInBhdGgiOiJcL2ZcL2EzZjc3NmUxLTlmMGMtNGVlMy1hN2UyLTdlOTY2Y2U4ZmVjYVwvZDUwZjIyOC0yMDc1MzExYy0yNTVmLTQ3NTUtYjhhMi05NjVkMjNlZjA0ZDAucG5nIiwid2lkdGgiOiI8PTYwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.PW05M7ajZvx_i6MIjdaZIPadbpjEc4xj-a0zZdMUkUU");
+  .TWELVE {
+    background-image: url(/src/img/ALBUM\ 3.jpg);
   }
   
-  .RAINBOW_DASH {
-    background-image: url("https://raskraskirus.ru/wp-content/uploads/b/a/8/ba869d6421318be56c8491dccd88f1cb.png");
+  .EYES {
+    background-image: url(/src/img/ALBUM\ 2.jpg);
   }
   
-  .RARITY {
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cfafeb46-cee5-4792-99a5-2ebbe99666f8/d9nw9fo-2be3583b-2b61-4a38-9f36-2c58673c4a42.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmYWZlYjQ2LWNlZTUtNDc5Mi05OWE1LTJlYmJlOTk2NjZmOFwvZDludzlmby0yYmUzNTgzYi0yYjYxLTRhMzgtOWYzNi0yYzU4NjczYzRhNDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IgrluDRpjtoNIbuEIL0Qp_5sLYW8-0WSURlkBw0W7eE");
+  .FACE {
+    background-image: url(/src/img/ALBUM\ 1.jpg);
   }
   
-  .APPLE_JACK {
-    background-image: url("https://i.pinimg.com/originals/fc/b2/ff/fcb2ffd51991274e1e39d765aa60c1a9.png");
+  
+  .MERCH2 {
+    display: flex;
+
+  }
+
+  .SALE2:hover {
+    transform: scale(1.5);
   }
   
-  .TWILIGHT_SPARKLE {
-    background-image: url("https://fikiwiki.com/uploads/posts/2022-02/1644925725_11-fikiwiki-com-p-kartinki-tvailait-sparkl-11.png");
+  .SALE2 {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: 0.7s;
   }
   
-  .FLUTTERSHY {
-    background-image: url("https://derpicdn.net/img/2017/7/24/1493639/full.png");
+  .CASSET {
+    background-image: url(/src/img/MERCH\ 1.jpg);
+  }
+
+  .HOODIE {
+    background-image: url(/src/img/MERCH\ 2.jpg);
   }
   
-  .RYAN_GOSLING {
-    background-image: url("https://www.pngmart.com/files/22/Ryan-Gosling-PNG-Picture.png");
+  .VINYL {
+    background-image: url(/src/img/MERCH\ 3.jpg);
   }
   
-  .PROSTIL_PONY {
-    width: 100%;
-    text-align: center;
-    background-image: linear-gradient(to right, lightpink, #ff0000);
-    font-family: impact;
+  .MASK {
+    background-image: url(/src/img/MERCH\ 4.jpg);
   }
   
-  .LOSHADI h1 {
-    background-clip: text;
-    color: transparent;
-    font-size: 40px;
-    margin-bottom: 0px;
-    font-family: impact;
-  }
